@@ -251,51 +251,11 @@
 
   </div>
 </div>
-
-<div class="row">
-  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    <div class="card card-mini">
-      <div class="card-header">
-        <div class="card-title">Material (Stok Kurang dari 30)</div>
-       
-      </div>
-      <div class="card-body no-padding table-responsive">
-        <table class="table card-table">
-          <thead>
-            <tr>
-              <th>Material</th>
-              <th class="right">Stok</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-		  <?php 
-  //menampilkan data mysqli
-  date_default_timezone_set('Asia/Jakarta');
-  include "koneksi.php";
-  $no = 0;
-  $modal=mysqli_query($koneksi, "SELECT * FROM material WHERE stock < 30") or die("Error: " . mysqli_error($koneksi));
-  while($r=mysqli_fetch_array($modal)){
-  $no++;   
-?>
-          <tbody>
-            <tr>
-              <td><?php echo  $r['nama_barang']; ?></td>
-              <td class="right"><?php echo  $r['stock']; ?></td>
-              <td><span class="badge badge-warning badge-icon"><i class="fa fa-warning" aria-hidden="true"></i><span>Pending</span></span></td>
-            </tr>
-			<?php } ?>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  
-</div>
+<div class="footer">
   <footer class="app-footer"> 
   <div class="row">
     <div class="col-xs-12">
-      <div class="footer-copyright">
+      <div class="footer-copyright" align="center">
         Copyright © 2016 PT. PLN SEKTOR PEKANBARU Co,Ltd.
       </div>
     </div>
