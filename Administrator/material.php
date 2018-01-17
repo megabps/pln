@@ -179,22 +179,21 @@
 <a href="#" class="open_add btn btn-success" data-target="modal_add" data-toggle="modal">Add Data <i class="fa fa-plus" aria-hidden="true"></i></a>  
   <a href="form.php" class="btn btn-primary">Import File From Excel <i class="fa fa-file-excel-o" aria-hidden="true"></i></a>  
   <a href="export.php" class="btn btn-info">Export File To Excel <i class="fa fa-file-excel-o" aria-hidden="true"></i></a>
-   <a href="printmaterial.php" class="btn btn-warning" target="_blank">Print Data Material <i class="fa fa-print" aria-hidden="true"></i></a>
+   <!--a href="printmaterial.php" class="btn btn-warning" target="_blank">Print Data Material <i class="fa fa-print" aria-hidden="true"></i></a>-->
   <a class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          <div class="btn btn-warning"target="_blank">print qr
-            <i class="fa fa-print" aria-hidden="true"></i>
-          </div>
+          <div class="btn btn-warning"target="_blank">PRINT<i class="fa fa-print" aria-hidden="true"></i>
+            </div>
         </a>
         <div class="dropdown-menu">
-          
-            <li class="btn btn-info"><a href="kategori.php">Kategori</a></li><br>
-            <li class="btn btn-danger"><a href="material.php">Material</a></li>
-          
+          <li class="btn btn-warning"><a href="printmaterial.php">Print Data material</li>
+            <li class="btn btn-primary"><a href="kategori.php">Print QR Kategori</a></li>
+            <li class="btn btn-danger"><a href="material.php">Print QR Material</a></li>
         </div>
       </a>
   </div>
   </div>
+
 <div class="row">
  <div class="col-xs-12">
       <div class="card">
