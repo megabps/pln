@@ -180,21 +180,19 @@
   <a href="form.php" class="btn btn-primary">Import File From Excel <i class="fa fa-file-excel-o" aria-hidden="true"></i></a>  
   <a href="export.php" class="btn btn-info">Export File To Excel <i class="fa fa-file-excel-o" aria-hidden="true"></i></a>
    <a href="printmaterial.php" class="btn btn-warning" target="_blank">Print Data Material <i class="fa fa-print" aria-hidden="true"></i></a>
-   <!--a href="printqr.php" class="btn btn-warning"target="_blank">Print QR Doang <i class="fa fa-print" aria-hidden="true"></i></a>-->
-  <div class="dropdown">
+  <a class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           <div class="btn btn-warning"target="_blank">print qr
             <i class="fa fa-print" aria-hidden="true"></i>
           </div>
         </a>
         <div class="dropdown-menu">
-          <ul>
-            <!--li class="section"><i class="fa fa-file-o" aria-hidden="true"></i></li>-->
-            <div class="btn btn-info"><a href="kategori.php">Kategori</a></div>
-            <div class="btn btn-danger"><a href="material.php">Material</a></div>
-          </ul>
+          
+            <li class="btn btn-info"><a href="kategori.php">Kategori</a></li><br>
+            <li class="btn btn-danger"><a href="material.php">Material</a></li>
+          
         </div>
-      </div>
+      </a>
   </div>
   </div>
 <div class="row">
